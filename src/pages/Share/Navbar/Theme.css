@@ -1,0 +1,26 @@
+/* .dark-theme {
+    --main-heading: '#fff';
+    --para-color: '#fff';
+    --btn-bg-color: '#1e2125';
+    --btn-text-color: '#fff';
+    --bg-color: '#1e2125'
+}
+
+.light-theme {
+    --main-heading: '#1e2125';
+    --para-color: '#333';
+    --btn-bg-color: '#1e2125';
+    --btn-text-color: '#fff';
+    --bg-color: '#ecf0f3'
+}
+
+h1 {
+    color: var(--main-heading);
+}
+p {
+    color: var(--para-color);
+}
+button {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+} */

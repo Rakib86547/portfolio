@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "project_id": "01",
+        "title": "Resell Car Website",
+        "details": "a multiple pages website. People can easily buy used cars and sells their use cars on this website",
+        "img": "https://i.ibb.co/GJR5wVb/car.jpg",
+        "url": "https://the-car-master.web.app/"
+    },
+    {
+        "id": "02",
+        "project_id": "02",
+        "title": "Lawyer Services Website",
+        "details": "People can seek help for any legal advice. They can hire lawyers according to their needs",
+        "img": "https://i.ibb.co/z732pX7/lawyer.jpg",
+        "url": "https://albert-lawyer.web.app/"
+    },
+    {
+        "id": "03",
+        "project_id": "03",
+        "title": "Learning Platform Website",
+        "details": "People can easily learn the programming language of their choice here",
+        "img": "https://i.ibb.co/7t5wrLK/learning.jpg",
+        "url": "https://assignment-10-2d9e1.web.app/"
+    }
+]
