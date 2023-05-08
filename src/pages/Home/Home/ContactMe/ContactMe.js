@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AuthContext } from '../../../../provider/AuthProvider';
+import '../../../../App.css';
 
 const ContactMe = () => {
     const {theme} = useContext(AuthContext);
@@ -34,7 +35,7 @@ const ContactMe = () => {
             <h1 className='text-5xl text-center font-bold mt-20'>CONTACT <span className='text-primary'>ME</span></h1>
             <div className="hero w-full">
                 <div className="hero-content flex-col lg:flex-row w-full">
-                    <div className="text-center lg:text-left w-[42%]">
+                    <div className="text-center contact-text lg:text-left w-[42%]">
                         <h1 className="text-4xl font-bold">Contact</h1>
                         <p className="py-6 text-xl">Connect with me via </p>
                         <p><strong>Phone: </strong>+880-1776386547</p>
@@ -58,7 +59,7 @@ const ContactMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card flex-shrink-0 w-[58%]">
+                    <div className="card contact-field flex-shrink-0 w-[58%]">
                         <form ref={form} onSubmit={sendEmail} className="card-body">
                             <div className="form-control">
                                 <label className="label">

@@ -1,5 +1,3 @@
-
-
 .light-theme {
   --main-heading: '#1e2125';
   --para-clr: '#333';
@@ -15,18 +13,81 @@
   --btn-text-clr: '#fff';
   --bg-clr: '#1e2125'
 }
+
 .App {
   background-color: var(--bg-clr);
 }
+
 h1 {
   color: var(--main-heading);
 }
+
 p {
   color: var(--para-clr);
 }
+
 button {
   background-color: var(--btn-bg-clr);
   color: var(--btn-text-clr);
 }
 
+.li {
+  margin-left: 0px !important;
+}
 
+.ul li button {
+  margin-bottom: 20px;
+}
+
+.menu-hide {
+  left: -100%;
+  transition: all .4s;
+}
+
+.menu-open {
+  left: 0;
+  transition: all .4s;
+}
+
+.mobile-ul {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-ul {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .mx-auto {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-field {
+    width: 100%;    
+  }
+
+  .contact-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-wrapper{
+    padding: 0px 30px !important;
+  }
+}

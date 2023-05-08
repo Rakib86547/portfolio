@@ -1,5 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
 import ProjectsSummary from './ProjectsSummary';
+import '../../../../App.css';
 
 
 const Projects = () => {
